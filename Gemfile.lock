@@ -9,10 +9,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     connection_pool (2.2.3)
-    diff-lcs (1.3)
+    diff-lcs (1.5.0)
     newrelic_rpm (6.11.0.365)
-    rack (2.2.3)
-    rack-protection (2.0.8.1)
+    rack (2.2.6.3)
+    rack-protection (2.2.4)
       rack
     rake (12.3.3)
     redis (4.2.1)
@@ -20,20 +20,20 @@ GEM
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
       rspec-mocks (~> 3.9.0)
-    rspec-core (3.9.2)
+    rspec-core (3.9.3)
       rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.2)
+    rspec-expectations (3.9.4)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
-    sidekiq (6.0.7)
-      connection_pool (>= 2.2.2)
-      rack (~> 2.0)
-      rack-protection (>= 2.0.0)
-      redis (>= 4.1.0)
+    sidekiq (5.2.7)
+      connection_pool (~> 2.2, >= 2.2.2)
+      rack (>= 1.5.0)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 5)
 
 PLATFORMS
   ruby
